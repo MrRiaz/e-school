@@ -49,6 +49,10 @@ header{
     color: white;
 }
 
+.btn:hover{
+    color: #fff;
+}
+
 .header-content-btn{
     margin-top: 25px;
 }
@@ -63,13 +67,19 @@ article p{
 }
 
 .col-body{
-    padding: 20px;
-    box-shadow: 0px 20px 40px lightgray;
+    padding: 40px 15px 40px 15px;
     border-radius: 10px;
+    transition: background-color, box-shadow 0.5s;
+}
+
+.col-body:hover{
+    background-color: #F0FFF0;
+    box-shadow: 0px 20px 40px lightgray;
+    cursor: pointer;
 }
 
 .col-body img{
-    height: 80px;
+    height: 85px;
     width: 70px;
     margin-bottom: 20px;
 }
@@ -101,20 +111,32 @@ article p{
 
 article img{
     width: 120px;
-    background-color: ##C4C4C4;
+    background-color: #C4C4C4;
     margin-right: 20px
+}
+
+.subscripe-section{
+    background-color: #F0FFF0;
+    padding: 60px 0;
+    margin-bottom: 0px;
 }
 
 
 footer{
     background-color: #282531;
-    padding: 40px 0;
+    padding: 60px 0 20px 0;
     color: #fff;
 }
 
+footer h6{
+    font-size: 18px;
+    font-weight: 500;
+}
+
 footer p{
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
 }
 .copy-rights{
     padding-top: 40px;
