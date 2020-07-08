@@ -3,10 +3,32 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+h1{
+    font-weight: bold;
+}
+
+h2{
+    margin-bottom: 60px;
+}
+
+p>span{
+    color: #FD511A;
+}
+
+h1>span{
+    color: #21B573;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
 header{
     background-color: #F0FFF0;
-    height: 576px;
     width: auto;
+    padding-bottom: 50px;
+
 }
 
 .navbar img{
@@ -27,25 +49,13 @@ header{
     color: white;
 }
 
-p>span{
-    color: #FD511A;
-}
-
-h1{
-    font-weight: bold;
-}
-
-h1>span{
-    color: #21B573;
-}
-
 article p{
     color: #6C6B6B;
     margin-bottom: 20px;
 }
 
-section{
-    margin: 100px 0;
+.blog-section{
+    margin-top: 80px;
 }
 
 .col-body{
@@ -81,3 +91,24 @@ section{
     height: 24px;
 }
 
+article img{
+    width: 120px;
+    height: 120px;
+    background-color: ##C4C4C4;
+}
+
+
+footer{
+    background-color: #282531;
+    padding: 40px 0;
+    color: #ffffffb3;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: normal;
+}
+.copy-rights{
+    padding-top: 25px;
+    
+}
