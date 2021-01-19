@@ -27,8 +27,7 @@ section{
 header{
     background-color: #F0FFF0;
     width: auto;
-    padding-bottom: 50px;
-
+    /* padding-bottom: 50px; */
 }
 
 .navbar img{
@@ -134,6 +133,7 @@ footer h6{
 }
 
 footer p{
+    margin-bottom: 3px;
     font-size: 14px;
     font-weight: 200;
     cursor: pointer;
